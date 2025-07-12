@@ -101,7 +101,7 @@ def create_character():
 
 
 def battle(player, wizard):
-    print("\n🧙‍♂️ Battle Start! Defeat the Evil Wizard! 🧙‍♂️")
+    print("\n Battle Start! Defeat the Evil Wizard! ")
     while player.health > 0 and wizard.health > 0:
         print("\n--- Your Turn ---")
         print("1. Attack\n2. Use Special Ability\n3. Heal\n4. View Stats")
@@ -131,9 +131,9 @@ def battle(player, wizard):
                 wizard.attack(player)
 
         if player.health <= 0:
-            print(f"\n💀 {player.name} has been defeated by the Evil Wizard. Game Over.")
+            print(f"\n {player.name} has been defeated by the Evil Wizard. Game Over.")
         elif wizard.health <= 0:
-            print(f"\n🎉 Victory! {player.name} has defeated the Evil Wizard!")
+            print(f"\n Victory! {player.name} has defeated the Evil Wizard!")
 
 
 def main():
