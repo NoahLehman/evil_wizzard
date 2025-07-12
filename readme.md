@@ -19,5 +19,5 @@ A turn-based command-line RPG built in Python using object-oriented programming 
 
 1. **Clone the Repository**  
 ```bash
-git clone https://github.com/your-username/evil-wizard-rpg.git
-cd evil-wizard-rpg
+git clone https://github.com/NoahLehman/evil_wizzard.git
+cd evil-wizard
